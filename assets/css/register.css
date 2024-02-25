@@ -1,0 +1,21 @@
+body {
+	height: 100vh;
+}
+
+.register-bg {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(.4);
+}
+
+.register-main {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.register-form {
+	width: 350px;
+}
